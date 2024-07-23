@@ -1,0 +1,45 @@
+/* style.css */
+
+.table {
+    height: 400px;
+    width: 1300px;
+    background-color: 3px solid red;
+    margin-left: 25%;
+}
+
+.major {
+    width: 40em;
+    height: 500px;
+    margin-left: 30%;
+    transform: rotate(410deg);
+    margin-top: 9%;
+}
+
+.one {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    margin-top: 90%;
+    opacity: 0.2;
+}
+
+.two {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    margin-top: 52%;
+    opacity: 0.3;
+}
+
+.three {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    opacity: 0.4;
+}
