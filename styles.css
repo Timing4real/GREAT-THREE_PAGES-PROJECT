@@ -2,8 +2,10 @@
 
 .major-container {
     height: 38em;
-    width: 53em;
-    margin-left: 18%;
+    width: 85em;
+    background-image: url(images/9sbeach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .links ul {
@@ -22,10 +24,11 @@ a {
 
 .popular {
     height: 35px;
-    width: 15em;
-    margin-left: 37%;
-    text-align: center;
+    width: 31em;
+    margin-left: 19%;
     margin-top: -1%;
+    text-align: end;
+    font-stretch: extra-expanded;
 }
 
 .food-items {
@@ -34,6 +37,7 @@ a {
     margin-left: 1%;
     display: flex;
     justify-content: space-around;
+    margin-left: 19%;
 }
 
 .first-set {
@@ -41,7 +45,6 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black;
 }
 
 .picture-place {
@@ -101,7 +104,6 @@ a {
     text-align: center;
     padding-top: 2%;
     margin-left: 4%;
-    border: solid red;
     background: linear-gradient(rgba(120, 120, 120,0.0) 0 0),
     radial-gradient(red 40%, transparent 80%),
     yellow;
@@ -113,7 +115,6 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black; 
 }
 
 .third-set {
@@ -121,7 +122,6 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black;
 }
 
 .fourth-set {
@@ -129,13 +129,12 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black;
 }
 
 .second-items {
     height: 16em;
     width: 52em;
-    margin-left: 1%;
+    margin-left: 19%;
     margin-top: 1%;
     display: flex;
     justify-content: space-around;
@@ -146,7 +145,6 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black;
 }
 
 .item-two {
@@ -154,7 +152,6 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black;
 }
 
 .item-three {
@@ -162,7 +159,6 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black;
 }
 
 .item-four {
@@ -170,5 +166,4 @@ a {
     width: 12em;
     margin-top: 0.5%;
     border-radius: 1cap;
-    border: solid black;
 }
