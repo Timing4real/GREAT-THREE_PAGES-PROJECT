@@ -1,0 +1,174 @@
+/* styles.css */
+
+.major-container {
+    height: 38em;
+    width: 53em;
+    margin-left: 18%;
+}
+
+.links ul {
+    height: 3em;
+    width: 10em;
+    font-weight: 900;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    background: linear-gradient(rgba(120, 120, 120,0.0) 0 0),
+    radial-gradient(red 40%, transparent 80%),
+    yellow;
+}
+
+.popular {
+    height: 35px;
+    width: 15em;
+    margin-left: 37%;
+    text-align: center;
+    margin-top: -1%;
+}
+
+.food-items {
+    height: 16em;
+    width: 52em;
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-set {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black;
+}
+
+.picture-place {
+    height: 9em;
+    width: 11em;
+    margin-left: 4%;
+    margin-top: 2%;
+    border-radius: 1cap;
+    background-image: url(images/hotdog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.place-image {
+    height: 9em;
+    width: 11em;
+    margin-left: 4%;
+    margin-top: 2%;
+    border-radius: 1cap;
+    background-image: url(images/chik-pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pict-side {
+    height: 9em;
+    width: 11em;
+    margin-left: 4%;
+    margin-top: 2%;
+    border-radius: 1cap;
+    background-image: url(images/macdolnad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-holder {
+    height: 9em;
+    width: 11em;
+    margin-left: 4%;
+    margin-top: 2%;
+    border-radius: 1cap;
+    background-image: url(images/moimoi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.word {
+    height: 3em;
+    width: 11em;
+    margin-left: 4%;
+}
+
+.oder {
+    height: 1.5em;
+    width: 5em;
+    border-radius: 2cm;
+    text-align: center;
+    padding-top: 2%;
+    margin-left: 4%;
+    border: solid red;
+    background: linear-gradient(rgba(120, 120, 120,0.0) 0 0),
+    radial-gradient(red 40%, transparent 80%),
+    yellow;
+    color: yellow;
+}
+
+.next-set {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black; 
+}
+
+.third-set {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black;
+}
+
+.fourth-set {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black;
+}
+
+.second-items {
+    height: 16em;
+    width: 52em;
+    margin-left: 1%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-one {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black;
+}
+
+.item-two {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black;
+}
+
+.item-three {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black;
+}
+
+.item-four {
+    height: 15em;
+    width: 12em;
+    margin-top: 0.5%;
+    border-radius: 1cap;
+    border: solid black;
+}

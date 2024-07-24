@@ -1,45 +1,203 @@
 /* style.css */
 
-.table {
-    height: 400px;
-    width: 1300px;
-    background-color: 3px solid red;
-    margin-left: 25%;
+.universal-body {
+    height: 600px;
+    width: 76em;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(images/circle-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.major {
-    width: 40em;
-    height: 500px;
-    margin-left: 30%;
-    transform: rotate(410deg);
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+.navigation-bar {
+    height: 45px;
+    width: 74em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-nav {
+    height: 42px;
+    width: 7em;
+    display: flex;
+}
+
+.circles-holder {
+    height: 30px;
+    width: 3em;
+    background-image: url(images/nlg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shub {
+    height: 20px;
+    width: 4em;
+    margin-top: 8.5%;
+    margin-left: -4%;
+    color: purple;
+}
+
+.second-nav ul{
+    height: 35px;
+    width: 35em;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+}
+
+.cart-logo {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin-top: 0.2%;
+    background-image: url(images/cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-holder {
+    height: 420px;
+    width: 74em;
     margin-top: 9%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/nowlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.one {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: grey;
-    position: absolute;
-    margin-top: 90%;
-    opacity: 0.2;
+.letters-holder {
+    height: 250px;
+    width: 30em;
+    margin-top: 5%;
 }
 
-.two {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background-color: grey;
-    position: absolute;
-    margin-top: 52%;
-    opacity: 0.3;
+.upper-case {
+    height: 50px;
+    width: 20em;
 }
 
-.three {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    background-color: grey;
-    position: relative;
-    opacity: 0.4;
+.lower-case {
+    height: 100px;
+    width: 40em;
 }
+
+.boxes-holder {
+    height: 50px;
+    width: 17em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency {
+    height: 23px;
+    width: 4.5em;
+    padding-top: 3%;
+    padding-left: 12%;
+    border: 2px solid purple;
+    color: purple;
+}
+
+.items {
+    height: 28px;
+    width: 6em;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: white;
+    background-color: purple;
+}
+
+.picture-place {
+    height: 13em;
+    width: 17em;
+    margin-right: 15%;
+    background-image: url(images/burgar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.last-circles-holder {
+        height: 30px;
+        width: 120px;
+        margin-left: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .triangle {
+        height: 0px;
+        width: 0px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 20px solid grey;
+    }
+    
+    .angle {
+        height: 0px;
+        width: 0px;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 20px solid white;
+        margin-left: -17.5%
+    }
+    
+    .start {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        margin-top: 3%;
+        border: 2px solid grey;
+    }
+    
+    .min {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        margin-top: 3%;
+        background-color: grey;
+    }
+    
+    .end {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        margin-top: 3%;
+        background-color: grey;
+    }
+    
+    .shape {
+        height: 23px;
+        width: 23px;
+        margin-top: -2%;
+        background-image: url(images/greata.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #signature {
+        margin-left: 5%;
+        margin-top: -11%;
+        color: grey;
+        margin-left: 85%;
+    }
+    
+    .soar {
+        height: 15px;
+        width: 15px;
+        border-radius: 10cm;
+        border: 2px solid grey;
+        align-content: center;
+    }
+    
+    img {
+        height: auto;
+        width: 30px;
+    }
