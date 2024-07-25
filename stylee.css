@@ -1,7 +1,7 @@
 /* stylee.css */
 
 .world-container {
-    height: 42em;
+    height: 40em;
     width: 82em;
     display: flex;
     background-image: url(images/Whaoo.jpg);
@@ -9,9 +9,11 @@
     background-size: cover;
 }
 
+.form {
+    margin-top: -3%;
+}
+
 .links ul {
-    height: 4em;
-    width: 6em;
     font-weight: 900;
     list-style-type: none;
 }
@@ -19,6 +21,7 @@
 a {
     text-decoration: none;
     color: white;
+    font-size: larger;
 }
 
 .mini-container {
@@ -32,36 +35,39 @@ a {
 
 input {
     height: 3em;
-    width: 27.9em;
+    width: 28em;
     border-radius: 1ch;
     padding-left: 2%;
     border-style: none;
+    margin-top: -10%;
 }
 
 .sign {
     height: 2em;
     width: 20em;
     text-align: center;
-    margin-left: 7%;
     font-stretch: expanded;
+    font-size: larger;
     font-weight: 900;
 }
 
 .submit {
+    font-size: larger;
     margin-top: 20%;
-    background-color: darkcyan;
 }
 
 .date {
     font-weight: 900;
     margin-top: -10%;
+    margin-bottom: 13%;
 }
 
 .gender {
     font-weight: 900;
     height: 3em;
-    width: 28.5em;
+    width: 29em;
     border-radius: 1ch;
     margin-top: -20%;
     padding-left: 1%;
+    border-style: none;
 }
