@@ -2,11 +2,12 @@
 
 .world-container {
     height: 40em;
-    width: 82em;
+    width: 83em;
     display: flex;
     background-image: url(images/Whaoo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 1cm;
 }
 
 .form {

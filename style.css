@@ -9,6 +9,7 @@
     background-image: url(images/circle-logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 1cm;
 }
 
 a {
@@ -101,7 +102,7 @@ a {
 
 .boxes-holder {
     height: 50px;
-    width: 15em;
+    width: 16em;
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
@@ -109,9 +110,9 @@ a {
 
 .currency {
     height: 26px;
-    width: 8em;
+    width: 8.5em;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 3.5%;
     border: 2px solid purple;
     color: purple;
     border-top-style: dashed;
@@ -120,9 +121,10 @@ a {
 }
 
 .items {
-    height: 26px;
-    width: 8em;text-align: center;
-    padding-top: 3%;
+    height: 27px;
+    width: 8.5em;
+    text-align: center;
+    padding-top: 3.5%;
     color: white;
     background-color: purple;
     border-style: double;

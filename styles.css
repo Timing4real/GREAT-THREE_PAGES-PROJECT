@@ -2,11 +2,12 @@
 
 .major-container {
     height: 40em;
-    width: 85em;
+    width: 84em;
     background-image: url(images/9sbeach.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 2%;
+    border-radius: 1cm;
 }
 
 .links ul {
@@ -22,6 +23,7 @@ a {
     radial-gradient(yellow 40%, transparent 90%),
     red;
     font-size: larger;
+    border-radius: 0.8ch;
 }
 
 .popular {
