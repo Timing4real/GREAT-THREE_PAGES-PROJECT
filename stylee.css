@@ -1,74 +1,135 @@
 /* stylee.css */
 
 .world-container {
-    height: 40em;
+    height: 38.7em;
     width: 83em;
-    display: flex;
-    background-image: url(images/Whaoo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 1cm;
+    background-color: darkcyan;
 }
 
-.form {
-    margin-top: -3%;
-}
-
-.links ul {
+.navigation-bar ul {
+    height: 2em;
+    width: 20em;
     font-weight: 900;
+    display: flex;
     list-style-type: none;
+    justify-content: space-between;
+    margin-left: 4%;
 }
 
-a {
+li a {
     text-decoration: none;
     color: white;
     font-size: larger;
+    margin-top: 17%;
 }
 
-.mini-container {
-    height: 39em;
-    width: 25em;
-    margin-left: 25%;
-    border-radius: 1ch;
+.form-container {
+    height: 35.5em;
+    width: 29em;
+    margin-left: 32%;
+    margin-top: -1.5%;
+    border-radius: 0.6cap;
     padding-left: 1.5%;
-    margin-top: 2%;
+    background-color: white;
+}
+
+.form-body {
+    padding-top: 2%;
 }
 
 input {
-    height: 3em;
-    width: 28em;
-    border-radius: 1ch;
+    height: 2.9em;
+    width: 32em;
+    border-radius: 0.6cap;
     padding-left: 2%;
-    border-style: none;
-    margin-top: -10%;
-}
-
-.sign {
-    height: 2em;
-    width: 20em;
-    text-align: center;
-    font-stretch: expanded;
-    font-size: larger;
+    margin-top: 1%;
+    margin-bottom: 3%;
     font-weight: 900;
 }
 
-.submit {
-    font-size: larger;
-    margin-top: 20%;
+button {
+    height: 3.3em;
+    width: 33em;
+    border-radius: 0.6cap;
+    color: white;
+    font-weight: 900;
+    border-style: none;
+    background-color: darkcyan;
+}
+
+.signup {
+    height: 2em;
+    width: 10em;
+    padding-top: 2%;
+    margin-left: 33%;
+    font-weight: bolder;
+    font-size: x-large;
+    letter-spacing: -1pt;
 }
 
 .date {
     font-weight: 900;
-    margin-top: -10%;
-    margin-bottom: 13%;
+}
+
+.gender-box {
+    height: 6.1em;
+    margin-top: 1%;
 }
 
 .gender {
     font-weight: 900;
     height: 3em;
-    width: 29em;
-    border-radius: 1ch;
-    margin-top: -20%;
-    padding-left: 1%;
-    border-style: none;
+    width: 33em;
+    border-radius: 0.6cap;
+    display: inline;
+    margin-top: 1%;
 }
+
+.full-name, .email-address, .password, .birth-date {
+    font-weight: 900;
+}
+
+a {
+    display: inline-block;
+    background-color: darkcyan;
+    color: white;
+    padding: 0.6em 0.90em;
+    font-size: 15px;
+    position: relative;
+    letter-spacing: 2px;
+    border-radius: 3cap;
+    font-weight: 100;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-style: dashed;
+  }
+  
+  a div {
+    position: absolute;
+    display: block;
+  }
+  
+  a div:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 50%;
+    background-color: white;
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes animate4 {
+    30% {
+      bottom: -100%;
+    }
+    100%,
+    60% {
+      bottom: 100%;
+    }
+  }
