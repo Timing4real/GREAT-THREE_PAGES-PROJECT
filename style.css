@@ -1,5 +1,6 @@
 /* style.css */
 
+
 .universal-container {
     height: 37.8em;
     width: 75em;
@@ -59,6 +60,13 @@ a {
     margin-left: -8%;
 }
 
+.second-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 43.5em;
+}
+
 .cart-logo {
     height: 2em;
     width: 2.2em;
@@ -82,6 +90,12 @@ a {
 .letters-holder {
     height: 250px;
     width: 30em;
+}
+
+.lower-case:hover {
+    background-color: darkcyan;
+    border: 3px solid green;
+    color: white;
 }
 
 .upper-case {
@@ -143,105 +157,125 @@ a {
 }
 
 .last-circles-holder {
-        height: 30px;
-        width: 120px;
-        margin-left: 70%;
-        margin-top: -1%;
+    height: 30px;
+    width: 120px;
+    margin-left: 70%;
+    margin-top: -1%;
+    display: flex;
+    justify-content: space-around;
+}
+    
+.triangle {
+    height: 0px;
+    width: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid black;
+}
+    
+.angle {
+    height: 0px;
+    width: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid white;
+    margin-left: -17.5%
+}
+    
+.start {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 3%;
+    border: 2px solid black;
+}
+    
+.min {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 3%;
+    background-color: black;
+}
+    
+.end {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 3%;
+    background-color: black;
+}
+    
+.shape {
+    height: 23px;
+    width: 23px;
+    margin-top: -2%;
+    background-image: url(images/greata.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#signature {
+    color: grey;
+    margin-left: 85%;
+    margin-top: -9%;
+    text-align: center;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.soar {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 45%;
+}
+    
+img {
+    height: auto;
+    width: 30px;
+}
+
+a {
+    display: inline-block;
+    background-color: white;
+    color: purple;
+    padding: 0.2em 1em;
+    font-size: 15px;
+    position: relative;
+    overflow: visible;
+    letter-spacing: 3px;
+    border-radius: 1cap;
+}
+      
+a:hover {
+    background-color: grey;
+    color: black;
+    border: 1px solid red;
+    border-style: dashed;
+}
+      
+a span {
+    position: absolute;
+}
+
+@media (min-width: 475px) {
+    .header {
+        height: 45px;
+        width: 74em;
         display: flex;
-        justify-content: space-around;
-    }
-    
-    .triangle {
-        height: 0px;
-        width: 0px;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        border-right: 20px solid black;
-    }
-    
-    .angle {
-        height: 0px;
-        width: 0px;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        border-right: 20px solid white;
-        margin-left: -17.5%
-    }
-    
-    .start {
-        height: 10px;
-        width: 10px;
-        border-radius: 50%;
-        margin-top: 3%;
-        border: 2px solid black;
-    }
-    
-    .min {
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-        margin-top: 3%;
-        background-color: black;
-    }
-    
-    .end {
-        height: 15px;
-        width: 15px;
-        border-radius: 50%;
-        margin-top: 3%;
-        background-color: black;
-    }
-    
-    .shape {
-        height: 23px;
-        width: 23px;
-        margin-top: -2%;
-        background-image: url(images/greata.jpg);
+        justify-content: space-between;
+    }  
+    .universal-container {
+        height: 37.8em;
+        width: 75em;
+        padding-top: 0.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-image: url(images/circle-logo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    #signature {
-        color: grey;
-        margin-left: 85%;
-        margin-top: -9%;
-        text-align: center;
-        font-style: oblique;
-        font-weight: 900;
-    }
-
-    .soar {
-        height: 1em;
-        width: 1em;
-        border-radius: 50%;
-        border: 1px solid black;
-        margin-left: 45%;
-    }
-    
-    img {
-        height: auto;
-        width: 30px;
-    }
-
-    a {
-        display: inline-block;
-        background-color: white;
-        color: purple;
-        padding: 0.2em 1em;
-        font-size: 15px;
-        position: relative;
-        overflow: visible;
-        letter-spacing: 3px;
-        border-radius: 1cap;
-      }
-      
-      a:hover {
-        background-color: grey;
-        color: black;
-        border: 1px solid red;
-        border-style: dashed;
-      }
-      
-      a span {
-        position: absolute;
-      }
+        border-radius: 1cm;
+    }  
+}

@@ -1,230 +1,217 @@
 /* styles.css */
 
 .major-container {
-    height: 43em;
-    width: 83em;
-    padding-top: 1%;
-    background-color: black;
+  height: 43em;
+  width: 75em;
+}
+
+.coperate-logo {
+  height: 2em;
+  width: 10em;
+  margin-bottom: -5.5%;
+  display: flex;
+}
+
+.subham {
+  margin-top: 15%;
+  margin-left: -6%;
+}
+
+header {
+  width: 70em;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 8%;
+  margin-top: -1.5%;
 }
 
 .navigation-bar ul {
-    height: 3em;
-    width: 12em;
-    font-weight: 900;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 18%;
+  font-weight: 900;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  height: 3em;
+  width: 52em;
+  margin-left: 25%;
+  margin-top: 4.8%;
 }
 
-.order:hover {
+a {
+  text-decoration: none;
+  font-size: medium;
+}
+
+.circles-holder {
+  height: 4em;
+  width: 4em;
+}
+
+.cart-logo {
+  height: 2em;
+  width: 2.2em;
+  margin-top: -0.5%;
+}
+
+.shadow {
+  margin-top: -1%;
+  box-shadow: 3px 3px 5px 2px rgba(90, 90, 90,1.0);
+  color: black;
+}
+
+.shadow:hover {
   background-color: red;
   color: blue;
   border: 5px solid green;
   border-style: dashed;
 }
 
-a {
-    text-decoration-thickness: 2pt;
-    background: linear-gradient(rgba(100, 100, 100,0.0) 0 0),
-    radial-gradient(yellow 40%, transparent 90%),
-    red;
-    font-size: larger;
-    border-radius: 0.8ch;
-}
-
 .food-body {
-    height: 36em;
-    width: 47.8em;
-    margin-left: 21%;
-    margin-top: 2%;
-    background-color: white;
+  height: 36em;
+  width: 83em;
+  background-color: white;
 }
 
 .popular-foods {
-    margin-left: 38%;
-    font-weight: bolder;
-    margin-bottom: 2%;
-    margin-top: -3%;
+  margin-left: 42%;
+  width: 15em;
+  letter-spacing: 1pt;
+  font-weight: 900;
+  margin-bottom: 2%;
 }
 
 .food-items {
-    height: 14.5em;
-    width: 48em;
-    display: flex;
-    justify-content: space-around;
-    margin-top: -2%;
+  height: 14.5em;
+  width: 83em;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -2%;
 }
 
 .first-set {
-    height: 13.9em;
-    width: 10.8em;
-    border-radius: 1cap;
-    border: 2px solid black;
-    margin-top: 0.5%
+  height: 13.9em;
+  width: 19.5em;
+  border-radius: 1cap;
+  border: 2px solid black;
+  margin-top: 0.5%
 }
 
 img {
-    height: 8em;
-    width: 10em;
-    margin-left: 4%;
-    margin-top: 4%;
-    border-radius: 1cap;
+  height: 8em;
+  width: 18em;
+  margin-left: 4%;
+  margin-top: 3%;
+  border-radius: 1cap;
 }
 
 .word {
-    width: 12em;
-    margin-left: 4%;
-    font-weight: bolder;
-    font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 1.5%;
+  width: 12em;
+  margin-left: 4%;
+  margin-top: -1.8%;
+  font-weight: 900;
+  letter-spacing: 2pt;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 1.5%;
 }
 
 .price {
-    font-size: 15pt;
-    margin-left: 6%;
+  font-size: 15pt;
+  margin-left: 5%;
 }
 
 button {
-    height: 2em;
-    width: 6em;
-    border-radius: 2cm;
-    border-style: none;
-    text-align: center;
-    padding-top: 2%;
-    margin-left: 4%;
-    margin-top: -1.5%;
-    background: linear-gradient(rgba(90, 90, 90,0.0) 0 0),
-    radial-gradient(yellow 30%, transparent 70%),
-    red;
-    animation-duration: 5ms;
-    color: black;
+  height: 2.3em;
+  width: 6em;
+  border-radius: 2cm;
+  border-style: none;
+  text-align: center;
+  padding-top: 2%;
+  margin-left: 4%;
+  background: linear-gradient(rgba(90, 90, 90,0.0) 0 0),
+  radial-gradient(yellow 30%, transparent 70%),
+  red;
+  animation-duration: 5ms;
+  color: black;
 }
 
 .next-set {
-    height: 13.9em;
-    width: 10.8em;
-    margin-top: 0.5%;
-    border-radius: 1cap;
-    border: 2px solid black;
+  height: 13.9em;
+  width: 19.5em;
+  margin-top: 0.5%;
+  border-radius: 1cap;
+  border: 2px solid black;
 }
 
 .third-set {
-    height: 13.9em;
-    width: 10.8em;
-    margin-top: 0.5%;
-    border-radius: 1cap;
-    border: 2px solid black;
+  height: 13.9em;
+  width: 19.5em;
+  margin-top: 0.5%;
+  border-radius: 1cap;
+  border: 2px solid black;
 }
 
 .fourth-set {
-    height: 13.9em;
-    width: 10.8em;
-    margin-top: 0.5%;
-    border-radius: 1cap;
-    border: 2px solid black;
+  height: 13.9em;
+  width: 19.5em;
+  margin-top: 0.5%;
+  border-radius: 1cap;
+  border: 2px solid black;
 }
 
 .second-items {
-    height: 16em;
-    width: 48em;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1.8%;
+  height: 16em;
+  width: 83em;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
 }
 
 .item-one {
-    height: 13.9em;
-    width: 10.8em;
-    border-radius: 1cap;
-    border: 2px solid black;
+  height: 13.9em;
+  width: 19.5em;
+  border-radius: 1cap;
+  border: 2px solid black;
 }
 
 .item-two {
-    height: 13.9em;
-    width: 10.8em;
-    border-radius: 1cap;
-    border: 2px solid black;
+  height: 13.9em;
+  width: 19.5em;
+  border-radius: 1cap;
+  border: 2px solid black;
 }
 
 .item-three {
-    height: 13.9em;
-    width: 10.8em;
-    border-radius: 1cap;
-    border: 2px solid black;
+  height: 13.9em;
+  width: 19.5em;
+  border-radius: 1cap;
+  border: 2px solid black;
 }
 
 .item-four {
-    height: 15.6em;
-    width: 10.8em;
-    border-radius: 1cap;
-    border: 2px solid black;
+  height: 15.6em;
+  width: 19.5em;
+  border-radius: 1cap;
+  border: 2px solid black;
+}
+  
+:hover {
+  background-color: white;
+  border: 1px solid white;
 }
 
-a {
-    display: inline-block;
-    background-color: black;
-    color: red;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-    transition: 0.5s;
-    letter-spacing: 2px;
-    border-radius: 5px;
+@media (min-width: 475px) {
+  .major-container {
+    height: 43em;
+    width: 75em;
   }
   
-  a:hover {
-    background-color: red;
-    color: red;
-    border: 1px solid black;
+  header {
+    width: 70em;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 8%;
+    margin-top: -1.5%;
   }
-  
-  a span {
-    position: absolute;
-    display: block;
-  }
-
-  a span:nth-child(1) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background-color: black;
-    animation: animate2 1s linear infinite;
-    animation-delay: 0.25s;
-  }
-  
-  @keyframes animate2 {
-    0% {
-      top: -100%;
-    }
-    50%,
-    100% {
-      top: 100%;
-    }
-  }
-  
-  a span:nth-child(2) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background-color: black;
-    animation: animate4 1s linear infinite;
-    animation-delay: 0.75s;
-  }
-  
-  @keyframes animate4 {
-    0% {
-      bottom: -100%;
-    }
-    50%,
-    100% {
-      bottom: 100%;
-    }
-  }
-  
+}
