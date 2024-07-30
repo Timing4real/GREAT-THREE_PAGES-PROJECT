@@ -9,7 +9,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  width: 82.5em;
+  width: 83em;
+  background-color: white;
 }
 
 .navigation-bar ul {
@@ -124,6 +125,11 @@ button {
 
 .full-name, .email-address, .password, .birth-date {
   font-weight: 900;
+}
+
+:hover {
+  background-color: white;
+  border: 1px solid white;
 }
 
 a {

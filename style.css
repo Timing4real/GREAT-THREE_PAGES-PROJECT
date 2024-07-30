@@ -1,6 +1,5 @@
 /* style.css */
 
-
 .universal-container {
     height: 37.8em;
     width: 75em;
@@ -146,14 +145,17 @@ a {
 }
 
 .picture-place {
-    height: 19em;
-    width: 23em;
-    margin-right: 9%;
-    margin-top: 1%;
+    height: 16em;
+    width: 20em;
+    margin-right: 12%;
+    margin-top: 3%;
     background-image: url(images/Buga.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 4cm;
+    border-top-left-radius: 4cm;
+    border-top-right-radius: 4cm;
+    border-bottom-left-radius: 1cap;
+    border-bottom-right-radius: 1cap;
 }
 
 .last-circles-holder {
@@ -231,6 +233,11 @@ a {
     border: 1px solid black;
     margin-left: 45%;
 }
+
+:hover {
+    border: 1px soolid white;
+    border-radius: 0.5%;
+  }  
     
 img {
     height: auto;
