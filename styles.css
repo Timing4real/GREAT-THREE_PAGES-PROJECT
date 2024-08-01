@@ -1,60 +1,69 @@
 /* styles.css */
 
 .major-container {
-  height: 43em;
-  width: 75em;
+  height: 650px;
+  width: 1330px;
 }
 
 .coperate-logo {
-  height: 2em;
-  width: 10em;
-  margin-bottom: -5.5%;
+  height: 40px;
+  width: 40px;
   display: flex;
+  margin-left: 7%;
+  margin-top: -0.1%;
 }
 
 .subham {
-  margin-top: 15%;
-  margin-left: -6%;
+  margin-top: 60%;
+  margin-left: -27%;
+  color: red;
+  font-weight: 600;
 }
 
 header {
-  width: 70em;
+  height: 60px;
+  width: 1320px;
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin-left: 8%;
-  margin-top: -1.5%;
 }
 
 .navigation-bar ul {
   font-weight: 900;
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  height: 3em;
-  width: 52em;
-  margin-left: 25%;
-  margin-top: 4.8%;
+  justify-content: space-around;
+  height: 40px;
+  width: 1000px;
+  margin-left: 26%;
+  position: relative;
+  margin-top: -1.5%;
 }
 
 a {
   text-decoration: none;
   font-size: medium;
+  color: red;
 }
 
 .circles-holder {
-  height: 4em;
-  width: 4em;
+  height: 60px;
+  width: 65px;
+  margin-top: 6%;
 }
 
 .cart-logo {
-  height: 2em;
-  width: 2.2em;
-  margin-top: -0.5%;
+  height: 40px;
+  width: 40px;
+  margin-top: -1%;
+}
+
+.order {
+  margin-top: -1.5%;
 }
 
 .shadow {
-  margin-top: -1%;
+  margin-top: -1.5%;
   box-shadow: 3px 3px 5px 2px rgba(100, 100, 100,0.9);
   color: black;
 }
@@ -62,43 +71,41 @@ a {
 .shadow:hover {
   background-color: red;
   color: blue;
-  border: 5px solid green;
+  border: 3px solid green;
   border-style: dashed;
 }
 
 .food-body {
-  height: 36em;
-  width: 83em;
-  background-color: white;
+  height: 580px;
+  width: 1330px;
 }
 
 .popular-foods {
   margin-left: 42%;
-  width: 15em;
+  width: 220px;
+  height: 55px;
   letter-spacing: 1pt;
   font-weight: 900;
-  margin-bottom: 2%;
 }
 
 .food-items {
-  height: 14.5em;
-  width: 83em;
+  height: 230px;
+  width: 1328px;
   display: flex;
   justify-content: space-around;
-  margin-top: -2%;
 }
 
 .first-set {
-  height: 13.9em;
-  width: 19.5em;
+  height: 220px;
+  width: 312px;
   border-radius: 1cap;
   border: 2px solid black;
   margin-top: 0.5%
 }
 
 img {
-  height: 8em;
-  width: 18em;
+  height: 130px;
+  width: 290px;
   margin-left: 4%;
   margin-top: 3%;
   border-radius: 1cap;
@@ -121,8 +128,8 @@ img {
 }
 
 button {
-  height: 2.3em;
-  width: 6em;
+  height: 30px;
+  width: 80px;
   border-radius: 2cm;
   border-style: none;
   text-align: center;
@@ -136,61 +143,61 @@ button {
 }
 
 .next-set {
-  height: 13.9em;
-  width: 19.5em;
+  height: 220px;
+  width: 312px;
   margin-top: 0.5%;
   border-radius: 1cap;
   border: 2px solid black;
 }
 
 .third-set {
-  height: 13.9em;
-  width: 19.5em;
+  height: 220px;
+  width: 312px;
   margin-top: 0.5%;
   border-radius: 1cap;
   border: 2px solid black;
 }
 
 .fourth-set {
-  height: 13.9em;
-  width: 19.5em;
+  height: 220px;
+  width: 312px;
   margin-top: 0.5%;
   border-radius: 1cap;
   border: 2px solid black;
 }
 
 .second-items {
-  height: 16em;
-  width: 83em;
+  height: 250px;
+  width: 1328px;
   display: flex;
   justify-content: space-around;
   margin-top: 1%;
 }
 
 .item-one {
-  height: 13.9em;
-  width: 19.5em;
+  height: 220px;
+  width: 312px;
   border-radius: 1cap;
   border: 2px solid black;
 }
 
 .item-two {
-  height: 13.9em;
-  width: 19.5em;
+  height: 220px;
+  width: 312px;
   border-radius: 1cap;
   border: 2px solid black;
 }
 
 .item-three {
-  height: 13.9em;
-  width: 19.5em;
+  height: 220px;
+  width: 312px;
   border-radius: 1cap;
   border: 2px solid black;
 }
 
 .item-four {
-  height: 15.6em;
-  width: 19.5em;
+  height: 250px;
+  width: 312px;
   border-radius: 1cap;
   border: 2px solid black;
 }
@@ -201,22 +208,56 @@ button {
 }
 
 @media (min-width: 475px) {
+  .major-container {
+    height: 650px;
+    width: 1330px;
+  }
+  
+  header {
+    height: 60px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
   .navigation-bar ul {
     font-weight: 900;
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    height: 3em;
-    width: 52em;
-    margin-left: 25%;
-    margin-top: 4.8%;
+    justify-content: space-around;
+    height: 40px;
+    width: 1000px;
+    margin-left: 26%;
+    position: relative;
+    margin-top: -1.5%;
   }
-}
-
-@media (min-width: 475px) {
+  
   .food-body {
-    height: 36em;
-    width: 83em;
-    background-color: white;
+    height: 580px;
+    width: 1330px;
   }
+  
+  .food-items {
+    height: 230px;
+    width: 1328px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  img {
+    height: 130px;
+    width: 290px;
+    margin-left: 4%;
+    margin-top: 3%;
+    border-radius: 1cap;
+  }
+  
+  .second-items {
+    height: 250px;
+    width: 1328px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+  } 
 }

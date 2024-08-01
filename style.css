@@ -1,8 +1,8 @@
 /* style.css */
 
 .universal-container {
-    height: 37.8em;
-    width: 75em;
+    height: 597px;
+    width: 1210px;
     padding-top: 0.5%;
     padding-left: 5%;
     padding-right: 5%;
@@ -10,75 +10,77 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1cm;
+    border: 1px solid red;
 }
 
 a {
     text-decoration: none;
-    color: purple;
+    color: darkmagenta;
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header {
-    height: 45px;
-    width: 74em;
+    height: 50px;
+    width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .first-nav {
-    height: 1em;
-    width: 12em;
+    height: 50px;
+    width: 180px;
     display: flex;
     margin-left: -2%;
     margin-top: 1.5%;
 }
 
 .circles-holder {
-    height: 2.8em;
-    width: 5em;
+    height: 60px;
+    width: 70px;
     background-image: url(images/nlg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -13%;
+    margin-top: -11%;
 }
 
 .shub {
     height: 20px;
-    width: 5em;
-    color: purple;
-    margin-left: -8%;
+    width: 60px;
+    color: darkmagenta;
+    margin-left: -7%;
+    margin-top: 1%;
 }
 
 .second-nav ul{
     height: 35px;
-    width: 23.5em;
+    width: 500px;
     justify-content: space-between;
     display: flex;
     list-style-type: none;
-    margin-left: -8%;
 }
 
 .second-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
-    width: 43.5em;
+    width: 1000px;
 }
 
 .cart-logo {
-    height: 2em;
-    width: 2.2em;
+    height: 30px;
+    width: 31px;
     margin-top: 1%;
     background-image: url(images/cart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: -13%;
 }
 
 .body-holder {
-    height: 420px;
-    width: 74em;
-    margin-top: 9%;
+    height: 450px;
+    width: 1200px;
+    margin-top: 7%;
     display: flex;
     justify-content: space-between;
     background-image: url(images/nowlogo.jpg);
@@ -87,47 +89,49 @@ a {
 }
 
 .letters-holder {
-    height: 250px;
-    width: 30em;
+    height: 320px;
+    width: 600px;
+    margin-top: 4%;
 }
 
 .lower-case:hover {
-    background-color: darkcyan;
-    border: 3px solid green;
+    background-color: grey;
+    border: 3px solid darkmagenta;
     color: white;
 }
 
 .upper-case {
-    height: 3em;
-    width: 20em;
+    height: 70px;
+    width: 350px;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -4%;
+    letter-spacing: 2pt;
 }
 
 .lower-case {
-    height: 5em;
-    width: 34em;
+    height: 90px;
+    width: 600px;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 0.1pt;
-    margin-top: -2%;
 }
 
 .boxes-holder {
     height: 50px;
-    width: 16em;
+    width: 310px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 13%;
 }
 
 .currency {
     height: 26px;
-    width: 8.5em;
+    width: 140px;
     text-align: center;
     padding-top: 3.5%;
-    border: 2px solid purple;
-    color: purple;
+    border: 2px solid darkmagenta;
+    color: darkmagenta;
     border-top-style: dashed;
     border-left-style: dashed;
     font-size: small;
@@ -135,20 +139,20 @@ a {
 
 .items {
     height: 27px;
-    width: 8.5em;
+    width: 140px;
     text-align: center;
     padding-top: 3.5%;
     color: white;
-    background-color: purple;
+    background-color: darkmagenta;
     border-style: double;
     font-size: small;
 }
 
 .picture-place {
-    height: 16em;
-    width: 20em;
+    height: 250px;
+    width: 350px;
     margin-right: 12%;
-    margin-top: 3%;
+    margin-top: 7%;
     background-image: url(images/Buga.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,7 +224,7 @@ a {
 #signature {
     color: grey;
     margin-left: 85%;
-    margin-top: -9%;
+    margin-top: -10%;
     text-align: center;
     font-style: oblique;
     font-weight: 900;
@@ -235,7 +239,6 @@ a {
 }
 
 :hover {
-    border: 1px soolid white;
     border-radius: 0.5%;
   }  
     
@@ -247,7 +250,7 @@ img {
 a {
     display: inline-block;
     background-color: white;
-    color: purple;
+    color: darkmagenta;
     padding: 0.2em 1em;
     font-size: 15px;
     position: relative;
@@ -259,24 +262,14 @@ a {
 a:hover {
     background-color: grey;
     color: black;
-    border: 1px solid red;
+    border: 2px solid red;
     border-style: dashed;
-}
-      
-a span {
-    position: absolute;
 }
 
 @media (min-width: 475px) {
-    .header {
-        height: 45px;
-        width: 74em;
-        display: flex;
-        justify-content: space-between;
-    }  
     .universal-container {
-        height: 37.8em;
-        width: 75em;
+        height: 597px;
+        width: 1210px;
         padding-top: 0.5%;
         padding-left: 5%;
         padding-right: 5%;
@@ -284,5 +277,77 @@ a span {
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1cm;
-    }  
+        border: 1px solid red;
+    }
+    
+    .header {
+        height: 50px;
+        width: 1200px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .second-nav ul{
+        height: 35px;
+        width: 500px;
+        justify-content: space-between;
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .second-nav {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        width: 1000px;
+    }
+    
+    .body-holder {
+        height: 450px;
+        width: 1200px;
+        margin-top: 7%;
+        display: flex;
+        justify-content: space-between;
+        background-image: url(images/nowlogo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .letters-holder {
+        height: 320px;
+        width: 600px;
+        margin-top: 4%;
+    }
+    
+    .upper-case {
+        height: 70px;
+        width: 20em;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: -4%;
+        letter-spacing: 2pt;
+    }
+    
+    .lower-case {
+        height: 90px;
+        width: 32em;
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 0.1pt;
+    }
+    
+    .picture-place {
+        height: 250px;
+        width: 350px;
+        margin-right: 12%;
+        margin-top: 7%;
+        background-image: url(images/Buga.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 4cm;
+        border-top-right-radius: 4cm;
+        border-bottom-left-radius: 1cap;
+        border-bottom-right-radius: 1cap;
+    }
+    
 }
