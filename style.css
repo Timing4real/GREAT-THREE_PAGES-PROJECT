@@ -24,74 +24,67 @@ a {
     height: 50px;
     width: 1200px;
     display: flex;
-    justify-content: space-around;
 }
 
 .first-nav {
     height: 50px;
-    width: 180px;
+    width: 120px;
     display: flex;
-    margin-left: -2%;
-    margin-top: 1.5%;
 }
 
 .circles-holder {
-    height: 60px;
+    height: 70px;
     width: 70px;
-    background-image: url(images/nlg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -11%;
+    margin-top: -4%;
 }
 
 .shub {
-    height: 20px;
-    width: 60px;
+    height: 1em;
+    width: 5em;
     color: darkmagenta;
-    margin-left: -7%;
-    margin-top: 1%;
+    margin-top: 16%;
+    margin-left: -8%;
 }
 
 .second-nav ul{
-    height: 35px;
-    width: 500px;
+    height: 40px;
+    width: 900px;
     justify-content: space-between;
     display: flex;
     list-style-type: none;
+    margin-left: 6%;
 }
 
 .second-nav {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: space-between;
     width: 1000px;
 }
 
 .cart-logo {
     height: 30px;
     width: 31px;
+    margin-top: -0.5%;
+}
+
+.mobile-icon {
+    width: 30px;
+    height: 30px;
     margin-top: 1%;
-    background-image: url(images/cart.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: -13%;
 }
 
 .body-holder {
     height: 450px;
     width: 1200px;
-    margin-top: 7%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    background-image: url(images/nowlogo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .letters-holder {
     height: 320px;
     width: 600px;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 .lower-case:hover {
@@ -101,17 +94,17 @@ a {
 }
 
 .upper-case {
-    height: 70px;
-    width: 350px;
+    height: 3em;
+    width: 20em;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: -4%;
+    margin-bottom: -2%;
     letter-spacing: 2pt;
 }
 
 .lower-case {
-    height: 90px;
-    width: 600px;
+    height: 5em;
+    width: 32em;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 0.1pt;
@@ -153,13 +146,10 @@ a {
     width: 350px;
     margin-right: 12%;
     margin-top: 7%;
-    background-image: url(images/Buga.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     border-top-left-radius: 4cm;
     border-top-right-radius: 4cm;
-    border-bottom-left-radius: 1cap;
-    border-bottom-right-radius: 1cap;
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
 }
 
 .last-circles-holder {
@@ -216,15 +206,13 @@ a {
     height: 23px;
     width: 23px;
     margin-top: -2%;
-    background-image: url(images/greata.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-#signature {
+.signature {
+    width: 200px;
     color: grey;
     margin-left: 85%;
-    margin-top: -10%;
+    margin-top: -8%;
     text-align: center;
     font-style: oblique;
     font-weight: 900;
@@ -266,88 +254,69 @@ a:hover {
     border-style: dashed;
 }
 
-@media (min-width: 475px) {
+ @media (max-width: 640px) {
     .universal-container {
-        height: 597px;
-        width: 1210px;
-        padding-top: 0.5%;
-        padding-left: 5%;
-        padding-right: 5%;
-        background-image: url(images/circle-logo.jpg);
+        width: auto;
+        height: auto;
+        background-image: url(images/House.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        border-radius: 1cm;
-        border: 1px solid red;
     }
-    
-    .header {
-        height: 50px;
-        width: 1200px;
-        display: flex;
-        justify-content: space-around;
-    }
-    
     .second-nav ul{
-        height: 35px;
-        width: 500px;
-        justify-content: space-between;
-        display: flex;
-        list-style-type: none;
+        display: none;
     }
-    
-    .second-nav {
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
-        width: 1000px;
+    .shub {
+        margin-left: 10%;
     }
-    
+    .mobile-icon {
+        width: 30px;
+        height: 30px;
+        margin-left: 15%;
+    }    
     .body-holder {
-        height: 450px;
-        width: 1200px;
-        margin-top: 7%;
-        display: flex;
-        justify-content: space-between;
-        background-image: url(images/nowlogo.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: auto;
+        width: auto;
+        display: inline;
+        height: 100px;
     }
-    
     .letters-holder {
-        height: 320px;
-        width: 600px;
+        margin-top: 20%;
+    }
+
+    .last-circles-holder{
+        height: auto;
+        width: auto;
+        margin-left: -4%;
         margin-top: 4%;
     }
-    
-    .upper-case {
-        height: 70px;
-        width: 20em;
-        font-size: larger;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: -4%;
-        letter-spacing: 2pt;
+    .signature {
+        height: auto;
+        width: auto;
+        color: white;
     }
-    
     .lower-case {
-        height: 90px;
-        width: 32em;
-        font-size: larger;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        letter-spacing: 0.1pt;
+        height: 80px;
+        width: 300px;
+    }
+    .picture-place {
+        height: 200px;
+        width: 200px;
+    }
+    .currency {
+        background-color: white;
+    }
+    a:hover {
+        background-color: grey;
+        color: black;
+        border: 2px solid red;
+        border-style: dashed;
     }
     
-    .picture-place {
-        height: 250px;
-        width: 350px;
-        margin-right: 12%;
-        margin-top: 7%;
-        background-image: url(images/Buga.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-top-left-radius: 4cm;
-        border-top-right-radius: 4cm;
-        border-bottom-left-radius: 1cap;
-        border-bottom-right-radius: 1cap;
+}
+
+@media (min-width: 768px) {
+    .mobile-icon {
+        display: none;
     }
     
 }

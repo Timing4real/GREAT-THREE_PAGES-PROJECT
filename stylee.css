@@ -23,6 +23,11 @@ header {
   background-color: white;
 }
 
+.mobile-icon {
+  height: 30px;
+  width: 30px;
+}
+
 a {
   display: flex;
   justify-content: space-between;
@@ -269,83 +274,35 @@ a span:nth-child(4) {
   color: #000;
 }
 
-@media  (min-width: 475px) {
+
+@media (max-width: 768px) {
+
   .world-container {
-  height: 620px;
-  width: 1330px;
+    height: 450px;
   }
-
-  header {
-  display: flex;
-  justify-content: space-between;
-  width: 1330px;
-  background-color: white;
+  .coperate-logo {
+    display: flex;
   }
-
   .navigation-bar ul {
-  height: 40px;
-  width: 800px;
-  font-weight: 900;
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  margin-left: 4%;
-  background-color: white;
+    display: none;
   }
-
-  .navigation-bar {
-  display: flex;
-  height: 60px;
-  width: 1100px;
-  margin-left: 8%;
-  background-color: white;
-  }
-
-  .form-container {
-  height: 560px;
-  width: 1330px;
-  padding-top: 0.5%;
-  margin-top: -0.1%;
-  border-radius: 1cap;
-  background-color: darkcyan;
-  }
-
   .form-body {
-  height: 520px;
-  width: 460px;
-  margin-left: 32%;
-  margin-top: 1.5%;
-  border-radius: 0.6cap;
-  padding-left: 1.5%;
-  background-color: white; 
+    margin-left: 22%;
   }
 
-  input {
-  height: 38px;
-  width: 430px;
-  border-radius: 0.6cap;
-  padding-left: 2%;
-  margin-top: 1%;
-  margin-bottom: 3%;
-  font-weight: 900;
+  .mobile-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 1.5%;
+    margin-left: 40%;
   }
+  
+}
 
-  button {
-  height: 40px;
-  width: 443px;
-  border-radius: 0.6cap;
-  font-weight: 900;
-  border-style: none;
-  color: black;
-  background-color: darkcyan;
-  }
+@media (min-width: 1024px) {
 
-  .gender {
-  font-weight: 900;
-  height: 42px;
-  width: 443px;
-  border-radius: 0.6cap;
-  display: inline;
-  margin-top: 1%;
-  }
+  .mobile-icon {
+    display: none;
+  }    
+  
 }
