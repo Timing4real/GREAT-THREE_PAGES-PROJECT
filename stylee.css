@@ -113,12 +113,13 @@ button {
   font-weight: 900;
   border-style: none;
   color: black;
+  margin-top: 1%;
   background-color: darkcyan;
 }
 
 .signup {
   height: 2em;
-  width: 10em;
+  width: 5.5em;
   margin-left: 33%;
   font-weight: bolder;
   font-size: x-large;
