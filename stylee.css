@@ -280,7 +280,7 @@ a span:nth-child(4) {
 
   .form-container {
     width: 1600px;
-    height: 2000px;
+    height: 2500px;
     border-radius: 1%;
   }
   .coperate-logo {
@@ -309,9 +309,10 @@ a span:nth-child(4) {
   }
   .form-body {
     width: 900px;
-    height: 1550px;
-    margin-top: 15%;
+    height: 1800px;
+    margin-top: 20%;
     margin-left: 20%;
+    padding-top: 2%;
     border-radius: 1%;
   }
 
@@ -358,7 +359,6 @@ a span:nth-child(4) {
     font-size: 30pt;
     font-weight: bolder;
   }
-  
 
   .mobile-icon {
     height: 80px;
@@ -380,5 +380,5 @@ a span:nth-child(4) {
   .mobile-icon {
     display: none;
   }    
-  
+ g 
 }
