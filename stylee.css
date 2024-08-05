@@ -285,8 +285,8 @@ a span:nth-child(4) {
   }
   .coperate-logo {
     display: flex;
-    height: 400px;
-    width: 600px;
+    height: 350px;
+    width: 900px;
   }
 
   .coy-logo {
@@ -301,7 +301,7 @@ a span:nth-child(4) {
 
   .navigation-bar {
     width: 1700px;
-    height: 500px;
+    height: 400px;
     justify-content: space-between;
   }
   .navigation-bar ul {
