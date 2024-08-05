@@ -229,11 +229,17 @@ button {
   }
 
   .navigation-bar {
-    width: 1800px;
+    width: 1600px;
     height: 80px;
-    margin-left: 30%;
-    padding-top: 1%;
+    margin-top: 3%;
     justify-content: space-between;
+  }
+
+  .form {
+    font-size: 40pt;
+    font-weight: bolder;
+    padding-left: 700%;
+    padding-top: 50%;
   }
 
   .circles-holder {
@@ -283,13 +289,6 @@ button {
     font-size: 20pt;
     box-shadow: 3px 3px 5px 2px rgba(100, 100, 100,0.9);
     color: black;
-  }
-
-  .shadow:hover {
-    background-color: red;
-    color: blue;
-    border: 3px solid green;
-    border-style: dashed;
   }  
 
   .price {
@@ -309,13 +308,6 @@ button {
     red;
     animation-duration: 5ms;
     color: black;
-  }
-
-  button:hover {
-    background-color: red;
-    color: blue;
-    border: 3px solid green;
-    border-style: dashed;
   }  
   
   .food-items {
@@ -388,7 +380,7 @@ button {
   
   .item-four {
     height: 550px;
-    width: 940px;
+    width: 900px;
     border-radius: 1cap;
     border: 2px solid black;
   }
@@ -396,12 +388,7 @@ button {
   .mobile-icon {
     height: 70px;
     width: 70px;
-    margin-left: auto;
-  }
-  
-  :hover {
-    background-color: white;
-    border: 1px solid white;
+    margin-right: -30%;   
   }  
   
 }
