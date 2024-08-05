@@ -264,50 +264,104 @@ a:hover {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .universal-container {
+        height: auto;
+        width: 1110px;
+    }
+    .header {
+        height: 80px;
+        width: 1000px;
+        margin-left: 8%;
+    }
+
+    .second-nav {
+        margin-left: 70%;
+        width: 200px;
+        height: 100px;
+        margin-top: 3%;
+    }
+
     .second-nav ul{
         display: none;
     }
+
+    .circles-holder {
+        height: 120px;
+        width: 200px;
+    }
+    
     .shub {
-        margin-left: 10%;
+        height: 100px;
+        width: 300px;
+        font-size: 30pt;
+
     }
     .mobile-icon {
-        width: 30px;
-        height: 30px;
-        margin-left: 15%;
+        width: 70px;
+        height: 70px;
     }    
     .body-holder {
-        height: auto;
-        width: auto;
+        height: 1600px;
+        width: 900px;
         display: inline;
         height: 100px;
     }
+
     .letters-holder {
-        margin-top: 20%;
+        display: inline;
+        width: 900px;
+        height: 500px;
     }
 
-    .last-circles-holder{
-        height: auto;
-        width: auto;
-        margin-left: -4%;
-        margin-top: 4%;
+    .upper-case {
+        height: 80px;
+        width: 800px;
+        margin-left: 20%;
+        font-size: 30pt;
+        color: black;
+        margin-top: 10%;
     }
-    .signature {
-        height: auto;
-        width: auto;
+
+    .lower-case {
+        height: 350px;
+        width: 800px;
+        color: black;
+        opacity: 0.6;
+        font-weight: 800;
+        font-size: 35pt;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+
+    .boxes-holder {
+        height: 100px;
+        width: 550px;
+        margin-left: 20%;
+    }
+
+    .currency {
+        height: 50px;
+        width: 250px;
+        font-size: 20pt;
+        background-color: white;
         color: darkmagenta;
     }
-    .lower-case {
-        height: 80px;
-        width: 300px;
-        color: purple;
+
+    .items {
+        height: 50px;
+        width: 250px;
+        font-size: 20pt;
     }
+
     .picture-place {
-        height: 200px;
-        width: 200px;
+        height: 500px;
+        width: 600px;
+        margin-left: 10%;
+        border-top-left-radius: 6cm;
+        border-top-right-radius: 6cm
     }
-    .currency {
-        background-color: white;
-    }
+
     a:hover {
         background-color: grey;
         color: black;

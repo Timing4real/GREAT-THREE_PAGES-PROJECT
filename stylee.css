@@ -278,17 +278,21 @@ a span:nth-child(4) {
 
 @media (max-width: 768px) {
 
-  .world-container {
-    height: 450px;
+  .form-container {
+    width: 800px;
   }
   .coperate-logo {
     display: flex;
+  }
+  .navigation-bar {
+    width: 600px;
   }
   .navigation-bar ul {
     display: none;
   }
   .form-body {
     margin-left: 22%;
+    width: 460px;
   }
 
   .mobile-icon {
