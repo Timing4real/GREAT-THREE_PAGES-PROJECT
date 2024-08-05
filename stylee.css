@@ -290,18 +290,18 @@ a span:nth-child(4) {
   }
 
   .coy-logo {
-    height: 150px;
-    width: 170px;
+    height: 220px;
+    width: 250px;
   }
 
   .shubham {
-    font-size: 28pt;
+    font-size: 30pt;
     margin-left: -15%;
   }
 
   .navigation-bar {
     width: 1700px;
-    height: 200px;
+    height: 600px;
     justify-content: space-between;
   }
   .navigation-bar ul {
@@ -311,14 +311,14 @@ a span:nth-child(4) {
     width: 900px;
     height: 1800px;
     margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 22%;
     padding-top: 2%;
     border-radius: 1%;
   }
 
   .signup {
     height: 150px;
-    width: 300px;
+    width: 450px;
     font-size: 40pt;
     margin-top: 10%;
     padding-top: 1%;
