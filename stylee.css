@@ -180,7 +180,7 @@ a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: white;
   animation: animate1 1s linear infinite;
 }
@@ -198,7 +198,7 @@ a span:nth-child(1) {
 a span:nth-child(2) {
   top: -100%;
   right: 0;
-  width: 2px;
+  width: 3px;
   height: 100%;
   background-color: white;
   animation: animate2 1s linear infinite;
@@ -219,7 +219,7 @@ a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: white;
   animation: animate3 1s linear infinite;
   animation-delay: 0.5s;
@@ -238,7 +238,7 @@ a span:nth-child(3) {
 a span:nth-child(4) {
   bottom: -100%;
   left: 0;
-  width: 2px;
+  width: 3px;
   height: 100%;
   background-color: white;
   animation: animate4 1s linear infinite;
@@ -279,27 +279,98 @@ a span:nth-child(4) {
 @media (max-width: 768px) {
 
   .form-container {
-    width: 800px;
+    width: 1600px;
+    height: 2000px;
+    border-radius: 1%;
   }
   .coperate-logo {
     display: flex;
+    height: 120px;
+    width: 530px;
   }
+
+  .coy-logo {
+    height: 150px;
+    width: 170px;
+  }
+
+  .shubham {
+    font-size: 28pt;
+    margin-left: -15%;
+  }
+
   .navigation-bar {
-    width: 600px;
+    width: 1700px;
+    height: 200px;
+    justify-content: space-between;
   }
   .navigation-bar ul {
     display: none;
   }
   .form-body {
-    margin-left: 22%;
-    width: 460px;
+    width: 900px;
+    height: 1550px;
+    margin-top: 15%;
+    margin-left: 20%;
+    border-radius: 1%;
   }
 
+  .signup {
+    height: 150px;
+    width: 300px;
+    font-size: 40pt;
+    margin-top: 10%;
+    padding-top: 1%;
+    margin-left: 35%;
+  }
+
+  input {
+    height: 100px;
+    width: 860px;
+    font-size: 20pt;
+    margin-bottom: 8%;
+  }
+
+  .gender-box {
+    height: 260px;
+  }
+
+  .gender {
+    height: 100px;
+    width: 880px;
+    font-size: 25pt;
+    font-weight: 600;
+    padding-left: 1.5%;
+  }
+
+  button {
+    height: 100px;
+    width: 875px;
+    border-radius: 0.3cm;
+  }
+
+  .full-name, .email-address, .password, .birth-date {
+    font-weight: 900;
+    font-size: 25pt;
+  }
+
+  .date {
+    font-size: 30pt;
+    font-weight: bolder;
+  }
+  
+
   .mobile-icon {
-    height: 30px;
-    width: 30px;
-    margin-top: 1.5%;
-    margin-left: 40%;
+    height: 80px;
+    width: 80px;
+    margin-top: 3.5%;
+    margin-left: 
+  }
+
+  a {
+    font-size: 30pt;
+    color: white;
+    font-weight: 600;
   }
   
 }
