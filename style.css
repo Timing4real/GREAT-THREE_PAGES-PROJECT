@@ -265,7 +265,7 @@ a:hover {
         background-size: cover;
     }
     .universal-container {
-        height: auto;
+        height: 2500px;
         width: 1110px;
     }
     .header {
@@ -319,7 +319,7 @@ a:hover {
         margin-left: 20%;
         font-size: 30pt;
         color: black;
-        margin-top: 10%;
+        margin-top: 40%;
     }
 
     .lower-case {
@@ -338,6 +338,7 @@ a:hover {
         height: 100px;
         width: 550px;
         margin-left: 20%;
+        margin-top: 30%;
     }
 
     .currency {
@@ -358,6 +359,7 @@ a:hover {
         height: 500px;
         width: 600px;
         margin-left: 10%;
+        margin-top: 30%;
         border-top-left-radius: 6cm;
         border-top-right-radius: 6cm
     }
