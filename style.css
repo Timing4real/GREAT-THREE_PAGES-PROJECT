@@ -281,6 +281,14 @@ a:hover {
         margin-top: 3%;
     }
 
+    .services {
+        font-size: 30pt;
+        font-weight: bold;
+        color: red;
+        margin-left: 100%;
+        margin-top: 5%;
+    }
+
     .second-nav ul{
         display: none;
     }
@@ -373,8 +381,12 @@ a:hover {
     
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
     .mobile-icon {
+        display: none;
+    }
+
+    .services {
         display: none;
     }
     

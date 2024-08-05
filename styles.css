@@ -398,4 +398,8 @@ button {
     display: none;
   }
 
+  .form {
+    display: none;
+  }
+
 }
