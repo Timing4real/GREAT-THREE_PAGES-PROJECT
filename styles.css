@@ -221,7 +221,7 @@ button {
   .major-container {
     margin-left: 10%;
     width: 1120px;
-    height: 2400px;
+    height: 2200px;
   }
 
   .navigation-bar ul {
@@ -271,14 +271,14 @@ button {
     width: 1000px;
     height: 160px;
     font-size: 40pt;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-left: 50%;
     letter-spacing: 0.5ch;
   }
 
   img {
-    height: 310px;
-    width: 840px;
+    height: 160px;
+    width: 740px;
     margin-left: 4%;
     margin-top: 3%;
     border-radius: 1cap;
@@ -319,75 +319,76 @@ button {
   
   .food-items {
     flex-direction: column;
-    width: 560px;
-    height: 2400px;
+    width: 460px;
+    height: 1800px;
+    margin-left: 10%;
   }
 
   .first-set {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     border-radius: 1cap;
     border: 2px solid black;
     margin-top: 0.5%;
   }
   
   .next-set {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     margin-top: 0.5%;
     border-radius: 1cap;
     border: 2px solid black;
   }
   
   .third-set {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     margin-top: 0.5%;
     border-radius: 1cap;
     border: 2px solid black;
   }
   
   .fourth-set {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     margin-top: 0.5%;
     border-radius: 1cap;
     border: 2px solid black;
   }
   
   .second-items {
-    width: 560px;
-    height: 2350px;
+    width: 460px;
+    height: 1753px;
     margin-left: 85%;
     flex-direction: column;
-    margin-top: -212%;
+    margin-top: -158.7%;
     justify-content: space-between;
   }
 
   .item-one {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     border-radius: 1cap;
     border: 2px solid black;
   }
   
   .item-two {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     border-radius: 1cap;
     border: 2px solid black;
   }
   
   .item-three {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     border-radius: 1cap;
     border: 2px solid black;
   }
   
   .item-four {
-    height: 550px;
-    width: 900px;
+    height: 400px;
+    width: 800px;
     border-radius: 1cap;
     border: 2px solid black;
   }
