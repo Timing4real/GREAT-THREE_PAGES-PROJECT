@@ -319,7 +319,8 @@ a span:nth-child(4) {
   .signup {
     height: 150px;
     width: 450px;
-    font-size: 40pt;
+    font-size: 50pt;
+    font-weight: 900;
     margin-top: 10%;
     padding-top: 1%;
     margin-left: 35%;
@@ -363,7 +364,7 @@ a span:nth-child(4) {
   .mobile-icon {
     height: 80px;
     width: 80px;
-    margin-top: 3.5%; 
+    margin-top: 6%; 
   }
 
   a {

@@ -265,8 +265,8 @@ a:hover {
         background-size: cover;
     }
     .universal-container {
-        height: 2500px;
-        width: 1110px;
+        height: 2400px;
+        width: 1250px;
     }
     .header {
         height: 80px;
@@ -278,15 +278,21 @@ a:hover {
         margin-left: 70%;
         width: 200px;
         height: 100px;
-        margin-top: 3%;
+        margin-top: 5%;
     }
 
     .services {
+        height: 50px;
         font-size: 30pt;
         font-weight: bold;
         color: red;
-        margin-left: 100%;
-        margin-top: 5%;
+        margin-left: 60%;
+        margin-top: 13%;
+    }
+
+    .first-nav {
+        height: 150px;
+        width: 370px;
     }
 
     .second-nav ul{
@@ -294,20 +300,24 @@ a:hover {
     }
 
     .circles-holder {
-        height: 120px;
-        width: 200px;
+        height: 200px;
+        width: 250px;
     }
     
     .shub {
         height: 100px;
         width: 300px;
+        color: grey;
         font-size: 30pt;
-
+        font-weight: 500;
+        margin-left: -12%;
     }
+
     .mobile-icon {
         width: 70px;
         height: 70px;
     }    
+
     .body-holder {
         height: 1600px;
         width: 900px;
@@ -323,30 +333,28 @@ a:hover {
 
     .upper-case {
         height: 80px;
-        width: 800px;
-        margin-left: 20%;
-        font-size: 30pt;
-        color: black;
-        margin-top: 40%;
+        width: 1000px;
+        margin-left: 9%;
+        font-size: 50pt;
+        color: white;
+        margin-top: 30%;
     }
 
     .lower-case {
-        height: 350px;
-        width: 800px;
-        color: black;
-        opacity: 0.6;
-        font-weight: 800;
-        font-size: 35pt;
+        height: 450px;
+        width: 1000px;
+        color: white;
+        font-weight: bold;
+        font-size: 45pt;
         text-align: center;
-        margin-left: 15%;
-        margin-top: 2%;
+        margin-left: 9%;
+        margin-top: 5%;
     }
 
     .boxes-holder {
         height: 100px;
         width: 550px;
-        margin-left: 20%;
-        margin-top: 30%;
+        margin-left: 25%;
     }
 
     .currency {
@@ -367,7 +375,6 @@ a:hover {
         height: 500px;
         width: 600px;
         margin-left: 10%;
-        margin-top: 30%;
         border-top-left-radius: 6cm;
         border-top-right-radius: 6cm
     }
