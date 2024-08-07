@@ -335,7 +335,7 @@ a:hover {
     .upper-case {
         height: 80px;
         width: 1000px;
-        margin-left: 9%;
+        margin-left: 11%;
         font-size: 50pt;
         color: white;
         margin-top: 30%;
@@ -349,7 +349,7 @@ a:hover {
         font-size: 45pt;
         text-align: center;
         margin-left: 9%;
-        margin-top: 5%;
+        margin-top: 7%;
     }
 
     .boxes-holder {
@@ -376,6 +376,7 @@ a:hover {
         height: 500px;
         width: 600px;
         margin-left: 10%;
+        margin-bottom: -4%;
         border-top-left-radius: 6cm;
         border-top-right-radius: 6cm
     }
