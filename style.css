@@ -213,24 +213,64 @@ a {
 .signature {
     width: 200px;
     color: grey;
-    margin-left: 85%;
-    margin-top: -8%;
     text-align: center;
     font-style: oblique;
     font-weight: 900;
+}
+
+.dropdown {
+    float: left;
+    margin-top: -35%;
+    position: absolute;
+}
+
+.dropdown .dropbtn {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    font-family: cursive;
+    color: gray;
+    font-size: 10pt;
+    font-weight: 600;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: greenyellow;
+    min-width: 160px;
+    box-shadow: 0px 50px 70px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: left;
+    color: grey;
+    background-color: greenyellow;
+    position: relative;
+}
+
+a:hover .dropdown:hover .dropbtn {
+    background-color: grey;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .soar {
     height: 1em;
     width: 1em;
     border-radius: 50%;
-    border: 1px solid black;
-    margin-left: 45%;
+    border: 1px solid grey;
+    text-align: center;
 }
-
-:hover {
-    border-radius: 0.5%;
-  }  
     
 img {
     height: auto;
@@ -387,6 +427,65 @@ a:hover {
         border: 2px solid red;
         border-style: dashed;
     }
+
+    .dropdown {
+        float: left;
+        margin-top: -35%;
+        position: absolute;
+    }
+    
+    .dropdown .dropbtn {
+        height: 70px;
+        width: 70px;
+        background-color: red;
+        border-radius: 50%;
+        font-family: cursive;
+        color: white;
+        font-size: 10pt;
+        font-weight: 600;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: greenyellow;
+        min-width: 160px;
+        box-shadow: 0px 50px 70px 0px rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        display: block;
+        text-decoration: none;
+        padding: 12px 20px;
+        text-align: left;
+        color: grey;
+        background-color: greenyellow;
+        position: relative;
+    }
+    
+    a:hover .dropdown:hover .dropbtn {
+        background-color: grey;
+        color: white;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .soar {
+        height: 1em;
+        width: 1em;
+        border-radius: 50%;
+        border: 1px solid grey;
+        text-align: center;
+    }
+        
+    img {
+        height: auto;
+        width: 30px;
+    }
+    
     
 }
 
@@ -398,5 +497,65 @@ a:hover {
     .services {
         display: none;
     }
+
+    .dropdown {
+        float: left;
+        margin-top: -35%;
+        position: absolute;
+    }
+    
+    .dropdown .dropbtn {
+        height: 70px;
+        width: 70px;
+        background-color: white;
+        border-radius: 50%;
+        font-family: cursive;
+        color: gray;
+        font-size: 10pt;
+        font-weight: 600;
+        opacity: 0.2;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: greenyellow;
+        min-width: 160px;
+        box-shadow: 0px 50px 70px 0px rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        display: block;
+        text-decoration: none;
+        padding: 12px 20px;
+        text-align: left;
+        color: grey;
+        background-color: greenyellow;
+        position: relative;
+    }
+    
+    a:hover .dropdown:hover .dropbtn {
+        background-color: grey;
+        color: white;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .soar {
+        height: 1em;
+        width: 1em;
+        border-radius: 50%;
+        border: 1px solid grey;
+        text-align: center;
+    }
+        
+    img {
+        height: auto;
+        width: 30px;
+    }
+    
     
 }

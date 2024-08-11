@@ -369,6 +369,7 @@ a span:nth-child(4) {
     color: white;
     font-weight: 600;
   }
+
   
 }
 
@@ -376,6 +377,7 @@ a span:nth-child(4) {
 
   .mobile-icon {
     display: none;
-  }    
+  }
+
   
 }
